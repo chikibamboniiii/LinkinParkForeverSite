@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Официальный фан-сайт группы Linkin Park.">
+
+    <title>Главная страница</title>
+    <script src="script/script.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/i22.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/i21.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/i21.png">
+    <link rel="manifest" href="img/i21.png">
+</head>
+
+<body>
+
+    <div class="preloader">
+        <img src="img/i19.gif" alt="Загрузка...">
+    </div>
+
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo neon-text">LINKIN PARK FOREVER</div>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-links" id="navinks">
+                <li><a href="index.html" onclick="showPage('home')" class="active">Главная</a></li>
+                <li><a href="page2.html" onclick="showPage('discography')">Дискография</a></li>
+                <li><a href="page3.html" onclick="showPage('concerts')">Концерты</a></li>
+                <li><a href="page4.html" onclick="showPage('fanclub')">Фан-клуб</a></li>
+                <li><a href="page5.html" onclick="showPage('gallery')">Галерея</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="overlay" id="overlay"></div>
+
+    <div class="container">
+
+        <!-- Главная страница -->
+
+        <div id="home" class="page active">
+            <div class="hero">
+                <h1 class="neon-text">LINKIN PARK <br> FOREVER</h1>
+                <p>Официальный фан-сайт легендарной группы</p>
+                <a href="page2.html" class="cta-button" onclick="showPage('discography')">Исследовать
+                    дискографию</a>
+            </div>
+
+            <div class="vid">
+                <div class="vi">
+                    <video autoplay src="video/v1.mp4" controls class="v">
+                        Your browser does not support the video.
+                    </video>
+                </div>
+            </div>
+
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>Новости группы</h3>
+                    <p>Последние новости о Linkin Park, новых релизах и памятных событиях. Следите за всеми
+                        обновлениями здесь.</p>
+                </div>
+                <div class="card">
+                    <h3>Эксклюзивный контент</h3>
+                    <p>Редкие записи, интервью и материалы за кулисами. Только для настоящих фанатов группы.</p>
+                </div>
+                <div class="card">
+                    <h3>Сообщество</h3>
+                    <p>Присоединяйтесь к тысячам фанатов по всему миру. Делитесь воспоминаниями и открывайте новое.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://web.facebook.com/linkinpark/?_rdc=1&_rdr#">FB</a>
+                <a href="https://x.com/linkinpark">TW</a>
+                <a href="https://www.instagram.com/linkinpark">IG</a>
+                <a href="https://www.youtube.com/channel/UCZU9T1ceaOgwfLRq7OKFU4Q">YT</a>
+                <a href="https://open.spotify.com/artist/6XyY86QOPPrYVGvF9ch6wz">SP</a>
+            </div>
+            <p>&copy; 2025 Linkin Park Forever Site. Создано с любовью для фанатов.</p>
+            <p class="neon-text" style="margin-top: 20px;">In memory of Chester Bennington (1976-2017)</p>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
